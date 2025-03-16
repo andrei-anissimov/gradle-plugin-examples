@@ -2,7 +2,8 @@ plugins {
     id("java")
 }
 
-apply(from = "gradle/filesPlugin.gradle.kts")
+val scripPluginVersion = property("plugin.files.version")
+apply(from = "https://raw.githubusercontent.com/andrei-anissimov/gradle-scripts/refs/tags/$scripPluginVersion/gradle/filesPlugin.gradle.kts")
 
 group = "io.anisand"
 version = "1.0-SNAPSHOT"
