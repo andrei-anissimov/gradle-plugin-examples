@@ -1,6 +1,8 @@
 plugins {
     id("java")
     id("files-plugin")
+    id("hello-world")
+    id("hello-world-2")
 }
 
 /* example of using remote script
