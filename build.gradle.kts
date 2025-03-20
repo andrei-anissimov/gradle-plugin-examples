@@ -2,7 +2,7 @@ plugins {
     java
     id("hello-world")
     id("hello-world-2")
-    id("files-plugin") version "0.1.0"
+    id("files-plugin") version "0.1.1"
 }
 
 /* example of using remote script
